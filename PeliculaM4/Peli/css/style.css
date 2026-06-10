@@ -1,0 +1,630 @@
+body {
+  background-image: url("../img/fondo2.jpg");
+  background-attachment: fixed;
+  background-size: 100%;
+}
+.dropbtn {
+  background-color: rgb(53, 109, 53);
+  color: rgb(0, 0, 0);
+  padding: 16px;
+  font-size: 4vh;
+  font-family: "tolkien";
+  font-weight: bold;
+  border: solid 2px black;
+  cursor: pointer;
+}
+.dropdown {
+  position: relative;
+  left: 70vh;
+  display: block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: yellowgreen;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: rgb(53, 109, 53);
+  text-decoration: unset;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: orange;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+.grad1 {
+  width: 150vh;
+  height: 52vh;
+  background: radial-gradient(red, yellow);
+  border: 15px solid rgb(250, 134, 1);
+
+  padding: 15vh;
+  margin: 15vh;
+
+  font-family: "tolkien";
+  font-size: 5vh;
+  color: rgb(53, 109, 53);
+
+  display: flex;
+  flex-flow: row wrap;
+  flex-direction: row;
+
+  text-align: center;
+}
+@font-face {
+  font-family: tolkien;
+  src: url("../fonts/tolkien/tolkien.woff");
+}
+.titsection1 {
+  font-family: "tolkien";
+  font-size: 6vh;
+  color: orange;
+
+  flex: content;
+  justify-content: center;
+  text-align: center;
+}
+.section1 {
+  width: 212.5vh;
+  height: 41.5vh;
+
+  padding: -50vh;
+
+  background: radial-gradient(hsl(39, 100%, 50%), yellow);
+  border: 3px solid rgb(250, 134, 1);
+  opacity: 0.8;
+
+  display: flex;
+  flex-flow: row wrap;
+  flex-direction: initial;
+
+  font-family: "tolkien";
+  color: rgb(53, 109, 53);
+  font-size: 2.7vh;
+  font-weight: 30vh;
+
+  align-items: center;
+  justify-content: center;
+}
+.titsection2 {
+  font-family: "tolkien";
+  font-size: 6vh;
+  color: orange;
+
+  flex: content;
+  justify-content: center;
+  text-align: center;
+}
+.section2 {
+  width: 212.5vh;
+  height: 28vh;
+
+  background: radial-gradient(orange, yellow);
+  border: 3px solid rgb(250, 134, 1);
+  opacity: 0.8;
+
+  display: flex;
+  flex-flow: row;
+  flex-direction: initial;
+
+  font-family: "tolkien";
+  color: rgb(53, 109, 53);
+  font-size: 2.7vh;
+  font-weight: 30vh;
+
+  align-items: center;
+  justify-content: center;
+}
+#peter {
+  width: 15vw;
+  height: 28vh;
+
+  display: flex;
+  flex-flow: row wrap;
+  flex-direction: row-reverse;
+}
+.personatges {
+  font-family: "tolkien";
+  font-size: 8vh;
+  color: orange;
+
+  flex: content;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.personatges1 {
+  display: flex;
+  flex-direction: row;
+}
+#frodo {
+  display: flex;
+  flex-direction: column;
+}
+#titfrodo {
+  font-family: "tolkien";
+  font-size: 6vh;
+  color: orange;
+
+  flex: content;
+  text-align: left;
+}
+.frodo {
+  width: 100vh;
+  height: 28vh;
+
+  display: flex;
+  flex-direction: row;
+
+  text-align: start;
+
+  font-family: "tolkien";
+  color: rgb(53, 109, 53);
+
+  background: radial-gradient(orange, yellow);
+
+  border: 3px solid rgb(250, 134, 1);
+}
+#foto_frodo {
+  display: flex;
+  flex-direction: row;
+
+  width: 10vw;
+  height: 28vh;
+}
+#sam {
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+  left: 11vh;
+}
+#titsam {
+  font-family: "tolkien";
+  font-size: 6vh;
+  color: orange;
+}
+.sam {
+  width: 100vh;
+  height: 28vh;
+
+  font-family: "tolkien";
+  color: rgb(53, 109, 53);
+
+  display: flex;
+  flex-direction: row;
+
+  background: radial-gradient(orange, yellow);
+
+  border: 3px solid rgb(250, 134, 1);
+}
+#foto_sam {
+  display: flex;
+  flex-direction: row-reverse;
+
+  width: 10vw;
+  height: 28vh;
+}
+.personatges2 {
+  display: flex;
+  flex-direction: row;
+}
+#gandalf {
+  display: flex;
+  flex-direction: column;
+}
+#titgandalf {
+  font-family: "tolkien";
+  font-size: 6vh;
+  color: orange;
+
+  flex: content;
+  justify-content: center;
+  text-align: left;
+}
+.gandalf {
+  width: 100vh;
+  height: 28vh;
+
+  display: flex;
+  flex-direction: row;
+
+  text-align: start;
+
+  font-family: "tolkien";
+  color: rgb(53, 109, 53);
+
+  background: radial-gradient(orange, yellow);
+
+  border: 3px solid rgb(250, 134, 1);
+}
+#foto_gandalf {
+  display: flex;
+  flex-direction: row-reverse;
+
+  width: 10vw;
+  height: 28vh;
+}
+#aragorn {
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+  left: 11vh;
+}
+#titaragorn {
+  font-family: "tolkien";
+  font-size: 6vh;
+  color: orange;
+
+  flex: content;
+  justify-content: center;
+  text-align: left;
+}
+.aragorn {
+  width: 100vh;
+  height: 28vh;
+
+  font-family: "tolkien";
+  color: rgb(53, 109, 53);
+
+  float: right;
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+
+  background: radial-gradient(orange, yellow);
+
+  border: 3px solid rgb(250, 134, 1);
+}
+#foto_aragorn {
+  display: flex;
+  flex-direction: row-reverse;
+
+  width: 10vw;
+  height: 28vh;
+}
+.personatges3 {
+  display: flex;
+  flex-direction: row;
+}
+#legolas {
+  display: flex;
+  flex-direction: column;
+}
+#titlegolas {
+  font-family: "tolkien";
+  font-size: 6vh;
+  color: orange;
+
+  flex: content;
+  justify-content: center;
+  text-align: left;
+}
+.legolas {
+  width: 100vh;
+  height: 28vh;
+
+  display: flex;
+  flex-direction: row;
+
+  text-align: start;
+
+  font-family: "tolkien";
+  color: rgb(53, 109, 53);
+
+  background: radial-gradient(orange, yellow);
+
+  border: 3px solid rgb(250, 134, 1);
+}
+#foto_legolas {
+  display: flex;
+  flex-direction: row-reverse;
+
+  width: 10vw;
+  height: 28vh;
+}
+#gimli {
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+  left: 11vh;
+}
+#titgimli {
+  font-family: "tolkien";
+  font-size: 6vh;
+  color: orange;
+
+  flex: content;
+  justify-content: center;
+  text-align: left;
+}
+.gimli {
+  width: 100vh;
+  height: 28vh;
+
+  font-family: "tolkien";
+  color: rgb(53, 109, 53);
+
+  float: right;
+
+  display: flex;
+  flex-direction: row;
+
+  background: radial-gradient(orange, yellow);
+
+  border: 3px solid rgb(250, 134, 1);
+}
+#foto_gimli {
+  display: flex;
+  flex-direction: row-reverse;
+
+  width: 10vw;
+  height: 28vh;
+}
+.plataformes {
+  font-family: "tolkien";
+  font-size: 8vh;
+  color: orange;
+
+  position: relative;
+  top: 17vh;
+}
+.taula {
+  width: 130vh;
+  height: 17vh;
+  margin: 0 auto;
+  background: radial-gradient(red, yellow);
+
+  border: 3px solid rgb(250, 134, 1);
+
+  position: relative;
+  top: 15vh;
+
+  font-family: "tolkien";
+  color: rgb(53, 109, 53);
+  font-weight: 5;
+}
+.media {
+  font-family: "tolkien";
+  font-size: 10vh;
+  color: orange;
+
+  flex: content;
+  position: relative;
+  top: 15vh;
+  justify-content: center;
+}
+.trailer1 {
+  font-family: "tolkien";
+  font-size: 8vh;
+  color: orange;
+  text-align: center;
+
+  background-image: url("../img/anillo.jpg");
+  background-size: contain;
+  border: 3px solid rgb(0, 0, 0);
+
+  flex: content;
+  justify-content: center;
+  padding: 6vh;
+}
+.imagenes {
+  font-family: "tolkien";
+  font-size: 8vh;
+  color: orange;
+}
+#elfos {
+  width: 80vh;
+  height: 40vh;
+}
+#elseñor {
+  width: 80vh;
+  height: 40vh;
+}
+#elseñorfrodosam {
+  width: 100vh;
+  height: 60vh;
+}
+.opinio {
+  font-family: "tolkien";
+  font-size: 8vh;
+  color: orange;
+
+  text-align: center;
+  flex: content;
+  justify-content: center;
+  padding: 6vh;
+}
+.titform {
+  font-family: "tolkien";
+  font-size: 8vh;
+  color: orange;
+
+  flex: content;
+  justify-content: center;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulari {
+  width: 80vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border: 3px solid rgb(250, 134, 1);
+  border-radius: 5vh;
+
+  background: radial-gradient(red, yellow);
+
+  font-family: "tolkien";
+  font-weight: 2vh;
+  color: rgb(53, 109, 53);
+  text-align: center;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 2px;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.links {
+  font-family: "tolkien";
+  font-size: 8vh;
+  color: orange;
+
+  flex: content;
+  justify-content: space-between;
+  text-align: center;
+}
+a {
+  font-family: "tolkien";
+  font-weight: bold;
+  color: green;
+  text-decoration: unset;
+  margin: 0 auto;
+}
+
+.direcciones {
+  width: 80vh;
+  height: 58vh;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  border: 3px solid rgb(250, 134, 1);
+  border-radius: 5vh;
+
+  background: radial-gradient(red, yellow);
+
+  font-family: "tolkien";
+  font-size: 6vh;
+  font-weight: 2vh;
+  color: rgb(53, 109, 53);
+  text-align: left;
+}
+
+.extra {
+  width: 205vh;
+  height: 259vh;
+
+  position: relative;
+  left: 5vh;
+
+  background-image: url("../img/extra.jpg");
+  background-size: 100%;
+}
+.lliure {
+  font-family: "tolkien";
+  font-size: 8vh;
+  color: orange;
+
+  flex: content;
+  justify-content: center;
+  margin: 0 auto;
+}
+.paragraf {
+  font-family: "tolkien";
+  font-size: 4vh;
+  color: orange;
+}
+.joc1 {
+  width: 80vh;
+  height: 27vh;
+
+  font-family: "tolkien";
+  font-size: 6vh;
+  color: orange;
+
+  position: relative;
+  left: 0.5vh;
+  float: left;
+}
+.joc2 {
+  width: 80vh;
+  height: 27vh;
+
+  font-family: "tolkien";
+  font-size: 4vh;
+  color: orange;
+
+  position: relative;
+  top: 5vh;
+  right: 9.8vh;
+  float: right;
+}
+.joc3 {
+  width: 80vh;
+  height: 27vh;
+
+  font-family: "tolkien";
+  font-size: 6vh;
+  color: orange;
+
+  position: relative;
+  top: 66vh;
+  left: 1vh;
+  float: left;
+}
+.joc4 {
+  width: 80vh;
+  height: 27vh;
+
+  font-family: "tolkien";
+  font-size: 6vh;
+  color: orange;
+
+  position: relative;
+  top: 51vh;
+  right: 9.8vh;
+  float: right;
+}
+.footer {
+  width: 80vh;
+  height: 50vh;
+
+  font-family: "tolkien";
+  font-size: 6vh;
+  font-weight: bold;
+  color: green;
+
+  position: relative;
+  bottom: 50vh;
+  left: 10vh;
+}
